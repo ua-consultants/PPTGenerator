@@ -98,7 +98,7 @@ if st.session_state.slides and (not st.session_state.slides or action == "Genera
                 else:
                     rows, cols = (4, 4)
                 
-                max_width = 10.0
+                max_width = 15.0
                 max_height = 7.5
                 img_width = max_width / cols
                 img_height = max_height / rows
